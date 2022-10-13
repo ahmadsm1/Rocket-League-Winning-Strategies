@@ -40,7 +40,7 @@ Our purpose for working behind this is educational and out of personal curiosity
 
 - Ahmad Saleem Mirza: CS Major and avid Rocket League fan
 - Person 2: one sentence about you!
-- Person 3: one sentence about you!
+-Gurkirat Toor: CS Major and enjoy spending my time playing basketball and fifa.
 
 ## Images
 
