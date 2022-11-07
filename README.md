@@ -39,8 +39,8 @@ Our purpose for working behind this is educational and out of personal curiosity
 **Please remember to update this section**
 
 - Ahmad Saleem Mirza: CS Major and avid Rocket League fan
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Jared Waldroff:
+- Gurkirat Toor: CS Major and enjoy spending my time playing basketball and fifa.
 
 ## Images
 
@@ -48,7 +48,7 @@ Our purpose for working behind this is educational and out of personal curiosity
 
 {You can use this area for any images you want to include}
 
-<img src ="images/test.png" width="100px">
+<img src ="https://liquipedia.net/commons/images/a/a6/RLCS_World_Championship_2022_lightmode.png" width="100px">
 
 ## References
 
@@ -56,5 +56,6 @@ Our purpose for working behind this is educational and out of personal curiosity
 
 {Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
 
+Link to the original data source: https://www.kaggle.com/datasets/dylanmonfret/rlcs-202122
 
 
