@@ -25,7 +25,7 @@ def load_clean(path):
     return df
 
 def merge_dfs(df1, df2_path, on_key):
-    """
+    """ 
     Merges the two databases together and drops duplicate rows.
 
     Arguments:
