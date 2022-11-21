@@ -29,6 +29,23 @@ def merge_dfs(df1, df2_path, on_key):
     Merges the two databases together and drops duplicate rows.
 
     Arguments:
+def load_clean(path):
+    """
+    cleans and removes columns that arent needed
+    """
+    df = (
+        pd.read_csv(path)
+        .dropna()
+        .drop(['team_slug','positioning_time_behind_ball',
+               'positioning_time_in_front_ball','demo_inflicted',
+               'movement_count_powerslide', 'core_shooting_percentage', 
+               'color','team_id','positioning_time_defensive_third',
+               'positioning_time_neutral_third',
+               'positioning_time_offensive_third'], axis=1)
+        .rename(columns={'positioning_time_defensive_half': 'defense_time'})
+        .rename(columns={'positioning_time_offensive_half': 'offense_time'})
+    )
+    return df
     df1 - (DataFrame) our original, main dataframe
     df2_path - (String) the path to the dataframe from which we need to append columns
     on_key - (String) the key which we will use to match each game to its appropriate data (match_id)
