@@ -6,7 +6,6 @@ def load_clean(path):
     """
     Cleans and appropriately modifies the raw dataset provided to it. Drops unnecessary columns and keep
     the ones needed.
-
     Arguments:
     path - (DataFrame) the raw data to clean
     """
@@ -27,25 +26,7 @@ def load_clean(path):
 def merge_dfs(df1, df2_path, on_key):
     """
     Merges the two databases together and drops duplicate rows.
-
     Arguments:
-def load_clean(path):
-    """
-    cleans and removes columns that arent needed
-    """
-    df = (
-        pd.read_csv(path)
-        .dropna()
-        .drop(['team_slug','positioning_time_behind_ball',
-               'positioning_time_in_front_ball','demo_inflicted',
-               'movement_count_powerslide', 'core_shooting_percentage', 
-               'color','team_id','positioning_time_defensive_third',
-               'positioning_time_neutral_third',
-               'positioning_time_offensive_third'], axis=1)
-        .rename(columns={'positioning_time_defensive_half': 'defense_time'})
-        .rename(columns={'positioning_time_offensive_half': 'offense_time'})
-    )
-    return df
     df1 - (DataFrame) our original, main dataframe
     df2_path - (String) the path to the dataframe from which we need to append columns
     on_key - (String) the key which we will use to match each game to its appropriate data (match_id)
@@ -66,10 +47,8 @@ def play_style_stats(df, mean_air_time):
     Creates new column which shows whether a team had a ground or aerial playstyle.
     It determine this by checking if the time spent in the air by a team is greater than the average
     of all matches throughout the season. Returns winning teams only.
-
     The mean_air_time is a parameter and calculated outside of this function because it must remain constant,
     even when we will be comparing 2 different dataset (majors vs total). See notebook to understand.
-
     Arguments:
     df - (DataFrame) our main dataframe.
     mean_air_time - (double) average air time for comparison
@@ -85,7 +64,6 @@ def region_agg(df):
     Creates new column to see if a match was played aggressively or passively. Our criteria here 
     for judging is whether a game had greater than average demolitions, shots made towards the net 
     and total distance travelled
-
     Arguments:
     df - (DataFrame) our main dataframe to examine the data from and add the column to.
     """
