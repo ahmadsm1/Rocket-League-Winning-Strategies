@@ -39,7 +39,7 @@ Our purpose for working behind this is educational and out of personal curiosity
 **Please remember to update this section**
 
 - Ahmad Saleem Mirza: CS Major and avid Rocket League fan
-- Jared Waldroff:
+- Jared Waldroff: CS Major and EDM producer
 - Gurkirat Toor: CS Major and enjoy spending my time playing basketball and fifa.
 
 ## Images
