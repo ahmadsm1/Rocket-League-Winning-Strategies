@@ -73,6 +73,32 @@ So to answer our question about how players can improve their goalkeeping, they 
 ___
 ## Notebook 2: Jared Waldroff
 
+I had the question: Does a more aggressive play style win you more games in Rocket League?"
+
+In rocket league an aggressive playlist invloves inflicting demolitions on the opposing team, moving around the map a lot, taking more shots & using a lot of boost to increase speed and launch into the air. For the sake of this question I focused heavily on demolitions inflicted and shots taken. Demolitions caused on the opposing team makes takes their car out of play for 3 seconds.
+
+Shown below is a plot of demolitions inflicted and goals scored. The number of shots was also used as the size of the point of the table.
+
+![diagram](images/jared_1.png)
+
+As the number of demolitions inflicted increases up the Y axis the number of goals that are scored increase up the X axis. You can immediately notice a trend up and to the right which indicates a correlation. The shots taken can also be taken into factor here. We can see that as the number of shots taken from a team gradually increases as they score more goals from the size of the bubbles on the graph. These three factors all point towards the answer that yes, a more aggressive play style will win you get more goals to win your games.
+
+Next I wanted to look directly at wins a team has compared to demolitions. Yes, we learned previously that demolitions get us more goals which get us more wins but what is the relationship between the two? 
+
+Here we see how many demolitions a team will get on average when they lose and win.
+
+![diagram](images/jared_3.png)
+
+You can see here that when a team loses they get on average 12 demolitions and when they win they get on average 13 demolitions. I honestly expected more of a difference when it came to demolitions and games won. We can still see though that the evidence is here for having a more aggressive play style.
+
+We focused on demolitions, now let's look at shots taken and goals scored to give us a better idea exactly how they impact each other.
+
+![diagram](images/jared_2.png)
+
+You can see here that trend going upwards of goals scored when the number of shots goes up. You can also see that on average a team takes 19 shots to score 1 goal. You can see this from the line going through the data. This line continues to go up and once teams are getting 20 goals they are taking around 50 shots. This again correlates with the idea of having a more aggressive play style will in fact score you more goals which will win you more games of rocket league.
+
 ## Noteook 3: Gurkirat Toor
 
 ## **Conclusion**
+
+Jared - At the beginning the question was asked "Does a more aggressive play style win you more games in Rocket League?" From the multiple graphs shown above we can see that taking more shots on net and commiting more demolitions on the opponent gives us that edge we need to put them in a bad position for us to score. 
