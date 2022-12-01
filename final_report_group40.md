@@ -109,6 +109,50 @@ You can see here that trend going upwards of goals scored when the number of sho
 
 ## Noteook 3: Gurkirat Toor
 
+We focussed on two major aspects of the game. The first being defense and the second being speed. 
+
+In most video games an offensive playstyle is usually the most effective and popular playstyle. We wanted to see if playing defensively would be an effective way to play. With a game so dependent on speed and pushing the ball up the field would it be effective to play defensively and stay back in order to prevent goals. I wanted to see if speed and defensive could work together to create more wins So with my research we first tried to answer the question:
+
+# Does more time spent on the defensive half correlate with more wins?
+
+In graph below we looked at the total wins based on offensive vs defensive playstyles. To visualize this better we split the data among the seasons. 
+
+![diagram](images/totalwins_offvsdef_Gurk.png)
+
+From our data we can see that playing offensively will lead to more wins. We can see that at the peak the offensive playstyle in the winter lead to almost 900 wins compared to the 600 defensive wins. We can see that from our data my question was proven false and that it is better to play offensively. Of course, this was not an accurate depiction of the best teams in the league so we went to more into depth and looked at the teams that played in Majors.
+
+![diagram](images/winsinmajor_Gurk.png)
+
+After filtering our data further we are able to see how more successful teams play. The information we have in front of us dictated that playing a defense oriented game will lead to more wins in majors. For all seasons except for spring we can see a significant difference in wins between the 2 playstyles. We see a huge difference in the summer season we can see that the defensive teams had more than 40 wins compared the offensive teams 20. From our data, we can see that when looking at all teams a defensive playstyle may not be the best for them, but for a more experienced and skillful team playing defensively will lead to more wins and better success. 
+
+My second focus for this project was about the speed of the team. Speed can play a vital role for a team it can be the difference between who get the first touch on the ball and how much easier of a shot you can get. More speed can lead to better movement. With speed playing such a vital role in the overall game we wanted to answer the following question:
+
+# Does playing faster than the opposing team prove to be a more successful strategy?
+
+Since Rocket League games are a set length of time an easy to measure speed is with the total distance traveled. So to answer our question i wanted to look at the amount of goals vs distance traveled. 
+
+# Total Distance Vs Goals
+
+![diagram](images/distancevsgoals_gurk.png)
+
+From our chart we can see that from the line that more speed carried throughout the game resulted in more goals. Although this is an accurate baseline measurement there are many factors in Rocket League such as boost boost plays a huge factor. Boost can push you from out of play back into play in a matter of seconds. When pushing to the ball it leaves your window to hit the ball feel longer when you move faster, it increases your reach area.  So to see if boost was equal to wins we visualized a graph that compares score against boost amount.
+
+# Goals Vs Boost Consumption
+
+![distance](images/avgboostvsscore_gurk.png)
+
+From the plot we can see that the score is higher when boost is used more. When a team uses more boost the score is higher which will lead to more team success. Anytime that a team scored 4 goals they would win and they used a lot of boost, while teams that tend to use less boost lost.
+
+With more movement ypu are able to play defensively will also being a offensive threat. The most important factor when trying to score goals would be shots created, to get more shots in theory you will need lots of speed and movement throughout the game. 
+
+# Total Distance Traveled Vs Shots
+![distance](images/movementvsshots_gurk.png)
+
+# Goals Vs Shots 
+![distance](images/goalsvsshots_gurk.png)
+
+From the graphs above you can see that the claims we made are accurate and that one of the important factor when trying to score goals is shots created and overall velocity is important to get shots. You can see that when we travel more total distance within a game we tend to create more opportunities which will lead to more success. A team that can create opportunities to score will have more goals. We can back up this claim from the graph above.  From the information we gathered in this notebook we can conclude that a defensive team that has more speed can and will be more successful in the World ChampionShip tournament and when they have more speed we are better equipped to win.
+
 ## **Conclusion**
 
 Jared - At the beginning the question was asked "Does a more aggressive play style win you more games in Rocket League?" From the multiple graphs shown above we can see that taking more shots on net and commiting more demolitions on the opponent gives us that edge we need to put them in a bad position for us to score. We saw with demolitions committed that on average teams who won committed 1 more demolition than the teams that lost. We also saw that the angle of the graph is much steeper when it comes to taking shots and scoring goals. From this I've learned that having a more agressive play style while playing Rocket League will pay off. Demolitions are good to use to give you a window of oppurtunity to score but always make sure you're focusing on taking those shots on net no matter what. More shots equals more goals which equals more wins. I also learned the importance of asking the right questions and that when you go through your anaylsis it's important to stay open minded to being wrong and trying to use the data to see something you may not have expected.
