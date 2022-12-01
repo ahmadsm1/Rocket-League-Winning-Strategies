@@ -12,7 +12,17 @@ Described simply as "soccer but with rocket-powered cars", Rocket League has qui
 
 ## **Exploratory Data Analysis**
 
-EDA here
+Upon looking through the data we had many questions about what certain play styles woul result in more games won. From things like demolitions committed on the opposing team, where you were located in terms of the field, wether you were in the air or on the ground. We looked through all the data provided and started asking questions. Would taking more shots on the opposing team's net result in more wins?
+
+![Fig 1](images/jared_4.png)
+
+This shows that teams who win take on average 9 more shots on net than teams that lose.
+
+-Ahmad
+
+-Gurkirat
+
+Exploring the data in this way gave us a little more insight into how we should proceed, the questions we want to ask and how we were going to go about answering those questions with the data provided.
 
 ## Notebook 1: Ahmad Saleem Mirza
 
@@ -75,7 +85,7 @@ ___
 
 I had the question: Does a more aggressive play style win you more games in Rocket League?"
 
-In rocket league an aggressive playlist invloves inflicting demolitions on the opposing team, moving around the map a lot, taking more shots & using a lot of boost to increase speed and launch into the air. For the sake of this question I focused heavily on demolitions inflicted and shots taken. Demolitions caused on the opposing team makes takes their car out of play for 3 seconds.
+In rocket league an aggressive playlist involves inflicting demolitions on the opposing team, moving around the map a lot, taking more shots & using a lot of boost to increase speed and launch into the air. For the sake of this question I focused heavily on demolitions inflicted and shots taken. Demolitions caused on the opposing team makes takes their car out of play for 3 seconds.
 
 Shown below is a plot of demolitions inflicted and goals scored. The number of shots was also used as the size of the point of the table.
 
@@ -101,4 +111,4 @@ You can see here that trend going upwards of goals scored when the number of sho
 
 ## **Conclusion**
 
-Jared - At the beginning the question was asked "Does a more aggressive play style win you more games in Rocket League?" From the multiple graphs shown above we can see that taking more shots on net and commiting more demolitions on the opponent gives us that edge we need to put them in a bad position for us to score. 
+Jared - At the beginning the question was asked "Does a more aggressive play style win you more games in Rocket League?" From the multiple graphs shown above we can see that taking more shots on net and commiting more demolitions on the opponent gives us that edge we need to put them in a bad position for us to score. We saw with demolitions committed that on average teams who won committed 1 more demolition than the teams that lost. We also saw that the angle of the graph is much steeper when it comes to taking shots and scoring goals. From this I've learned that having a more agressive play style while playing Rocket League will pay off. Demolitions are good to use to give you a window of oppurtunity to score but always make sure you're focusing on taking those shots on net no matter what. More shots equals more goals which equals more wins. I also learned the importance of asking the right questions and that when you go through your anaylsis it's important to stay open minded to being wrong and trying to use the data to see something you may not have expected.

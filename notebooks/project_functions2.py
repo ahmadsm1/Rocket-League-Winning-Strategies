@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
 
-def load_and_process(path):
-                     
-    # Method Chain 1 (Load data, read the data and drop rows with missing data)
-                     
+def load_and_process(path):                 
+    """
+    Method Chain 1 (Load data, read the data, rename columns and drop rows with missing data)
+    Arguments:
+    path - raw data to process
+    """
+    
     df1 = (
         pd.read_csv(path)
         .rename(columns = {
@@ -27,11 +30,11 @@ def load_and_process(path):
         })
         .dropna(how='any',axis=0)
           )
-
-    # Method Chain 2 (Create new columns, drop others, and do processing)
-
+    """
+    Method Chain 2 (Create new columns, drop others, and do processing)
+    """
     df2 = (
-          df1
+        df1
         .assign(DemosPerGoal=lambda x: x.demo_inflicted / x.core_goals)
         .drop(columns = [
             'match_id',
