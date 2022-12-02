@@ -8,19 +8,17 @@
 
 ## **Introduction**
 
-Described simply as "soccer but with rocket-powered cars", Rocket League has quickly risen to become one of the most popular competitive videogames in the entire e-sports industry. After 2 years of suspended play due to COVID-19, players and fans alike were excited for what the new season would bring with new players, new teams and new countries participating in the highest level of play ever seen. Having a shared interest in this game and an appreciation for the skill it takes to master it, we decided to examine the latest season's dataset and see what makes teams the best of the best.
+Described simply as "soccer but with rocket-powered cars", Rocket League has quickly risen to become one of the most popular competitive video games in the entire e-sports industry. After 2 years of suspended play due to COVID-19, players and fans alike were excited for what the new season would bring with new players, new teams and new countries participating in the highest level of play ever seen. Having a shared interest in this game and an appreciation for the skill it takes to master it, we decided to examine the latest season's dataset and see what makes teams the best of the best.
 
 ## **Exploratory Data Analysis**
 
-Upon looking through the data we had many questions about what certain play styles woul result in more games won. From things like demolitions committed on the opposing team, where you were located in terms of the field, wether you were in the air or on the ground. We looked through all the data provided and started asking questions. Would taking more shots on the opposing team's net result in more wins?
+Upon looking through the data we had many questions about what certain play styles would result in more games won. From things like demolitions committed on the opposing team, where you were located in terms of the field, wether you were in the air or on the ground. We looked through all the data provided and started asking questions. Would taking more shots on the opposing team's net result in more wins?
 
 ![Fig 1](images/jared_4.png)
 
 This shows that teams who win take on average 9 more shots on net than teams that lose.
 
--Ahmad
-
--Gurkirat
+Other major indicators included our defense and total distance moved. We noticed most teams playing offensively and imagined how a defensive playstyle would hypothetically pan out in a game. Speed is yet another crucial in-game statistic: faster movement around the field looks harder to execute and more skillful, but does the data back this up? Would merely playing faster allow a team to secure a victory?
 
 Exploring the data in this way gave us a little more insight into how we should proceed, the questions we want to ask and how we were going to go about answering those questions with the data provided.
 
@@ -154,5 +152,12 @@ With more movement ypu are able to play defensively will also being a offensive 
 From the graphs above you can see that the claims we made are accurate and that one of the important factor when trying to score goals is shots created and overall velocity is important to get shots. You can see that when we travel more total distance within a game we tend to create more opportunities which will lead to more success. A team that can create opportunities to score will have more goals. We can back up this claim from the graph above.  From the information we gathered in this notebook we can conclude that a defensive team that has more speed can and will be more successful in the World ChampionShip tournament and when they have more speed we are better equipped to win.
 
 ## **Conclusion**
+After collectively reviewing of all our notebooks, there were certain trends we saw across each of our questions that had overlapping areas of interest. 
 
-Jared - At the beginning the question was asked "Does a more aggressive play style win you more games in Rocket League?" From the multiple graphs shown above we can see that taking more shots on net and commiting more demolitions on the opponent gives us that edge we need to put them in a bad position for us to score. We saw with demolitions committed that on average teams who won committed 1 more demolition than the teams that lost. We also saw that the angle of the graph is much steeper when it comes to taking shots and scoring goals. From this I've learned that having a more agressive play style while playing Rocket League will pay off. Demolitions are good to use to give you a window of oppurtunity to score but always make sure you're focusing on taking those shots on net no matter what. More shots equals more goals which equals more wins. I also learned the importance of asking the right questions and that when you go through your anaylsis it's important to stay open minded to being wrong and trying to use the data to see something you may not have expected.
+Starting with our comparison of aggressive and passive playstyles, we found the former to be a more effective strategy at winning games: teams with greater movement around the field, more shots on net and demolitions of the enemy team all contribute to a team’s ‘aggression’. This increased aggression improves a team’s chance of outplaying their opponent and securing a victory. However, an aggressive playstyle should not have precedence over the primary goal of the game: to outscore the opponent. As we saw, Asia-Pacific South was the most aggressive region among all the others, but they came in near last at the World Championships. Sporadically moving around the field and taking weak shots towards the net may contribute to greater aggression, but they don’t win matches. An aggressive playstyle should seek to complement the team’s goals.
+
+Moving onto an aerial or ground playstyle, we saw that ground playstyles are much more popular at the lower level since they are easier to execute, thereby resulting in more wins in local tournaments. However, at higher levels of competition, such as Major or the World Championship, teams have to stick to an aerial based playstyle, as in these scenarios an overwhelming majority of the wins were aerial. This playstyle may also be called aggressive in some regard, as it involves moving around the field significantly more than a ground playstyle.
+
+Lastly, we focused on the defensive strategies in the game. Our data signified the importance of the in-game mechanic called ‘rotation’: to not sitting idle in the goal and try to block incoming shots but rather move around the field predicting where the ball will go next and confusing the enemy about your next move. Whilst managing that they must also dedicate enough time to being on the offensive end and create goal scoring plays. It may sound impossible to manage being so dedicated to opposite ends of the field, but the top teams have shown it to be true.
+
+In conclusion, our analysis both reinforced some pre-existing notions such as field rotation and challenged others, such as the success of ground playstyles in regionals. We as a group have learned to be more open minded to having our ideas challenged and conduct our research and present our findings in as much of an unbiased way as possible.
