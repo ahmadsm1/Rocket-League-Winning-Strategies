@@ -1,4 +1,4 @@
-# Winning Strategiees in the Rocket League Championship Series 2021-22
+# Winning Strategies in the Rocket League Championship Series 2021-22
 
 Simply described as soccer but with rocket-powered cars, Rocket League is one of the most competitive video games in the industry with thriving e-sports tournaments. Most notable and prestigious among them is the Rocket League Championship Series (RLCS) whose participants include  professional e-sports teams from all over the world competing for millions of dollars in prize earnings.
 
